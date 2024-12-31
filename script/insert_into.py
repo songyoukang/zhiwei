@@ -7,7 +7,7 @@
 import pymysql
 
 def DB():
-    # 数据库连接信息
+    # 数据库连接信息1111
     db_config = {
         'host': 'localhost',
         'user': 'root',
