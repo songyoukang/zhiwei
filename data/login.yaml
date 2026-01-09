@@ -1,0 +1,4 @@
+# 示例：data.yaml
+data:
+  username: "admin"
+  passwd: ".*Zxs@@2099.*"

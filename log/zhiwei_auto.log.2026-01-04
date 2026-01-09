@@ -1,0 +1,231 @@
+2026-01-04 18:21:11,678 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f5c09ec3cde74f9d9e21570b3d34089")>
+2026-01-04 18:21:11,678 INFO [page_login.py(page_login_updateuser:94)] - 正在调用智维中台的登录业务，用户名：songyoukang，密码：qwer@1212
+2026-01-04 18:21:11,679 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:21:11,679 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")
+2026-01-04 18:21:11,724 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素执行输入：songyoukang操作
+2026-01-04 18:21:11,783 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:21:11,783 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")
+2026-01-04 18:21:11,812 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素执行输入：qwer@1212操作
+2026-01-04 18:21:11,862 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')执行点击操作
+2026-01-04 18:21:11,863 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')
+2026-01-04 18:21:11,918 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 1 次 ==========
+2026-01-04 18:21:11,919 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:21:12,670 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:21:12,671 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:21:12,692 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 1 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:21:12,692 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:21:12,692 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:21:14,872 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 2 次 ==========
+2026-01-04 18:21:14,872 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:21:14,941 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:21:14,941 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:21:14,961 INFO [base.py(handle_captcha:125)] - 正在获取滑块拖动位置：<selenium.webdriver.remote.webelement.WebElement (session="9f5c09ec3cde74f9d9e21570b3d34089", element="f.4F70CC119BB142D4789DBDB9D9DDBF82.d.CAD33F1361D774990C05E04F92B46A8A.e.38")>
+2026-01-04 18:21:14,969 INFO [base.py(handle_captcha:129)] - 正在模拟鼠标推动滑块位置
+2026-01-04 18:21:18,865 INFO [page_login.py(_retry_captcha_until_login_success:64)] -  第 2 次验证码尝试：登录成功！
+2026-01-04 18:21:18,865 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="9f5c09ec3cde74f9d9e21570b3d34089")>
+2026-01-04 18:21:18,876 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')执行点击操作
+2026-01-04 18:21:18,878 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')
+2026-01-04 18:21:18,949 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')执行点击操作
+2026-01-04 18:21:18,949 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:21:19,975 INFO [base.py(input_element:38)] - 正在对:('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div[1]/input')元素输入框执行清空操作
+2026-01-04 18:21:19,975 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div[1]/input')
+2026-01-04 18:21:20,066 INFO [base.py(input_element:41)] - 正在对：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div[1]/input')元素执行输入：智先生测试修改操作
+2026-01-04 18:21:20,168 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')执行点击操作
+2026-01-04 18:21:20,168 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')
+2026-01-04 18:21:20,265 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:21:20,289 INFO [base.py(get_text_element:50)] - 正在获取元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')的文本，内容为：新增
+2026-01-04 18:21:20,289 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:21:20,306 INFO [Test_updateuser.py(testupdateuser:28)] - 获取的文本内容为新增
+2026-01-04 18:21:20,306 INFO [Test_updateuser.py(testupdateuser:32)] - ✅ 账号【新增】修改成功 → ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-01-04 18:22:40,670 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="54330130d22e1281183fdb2cd5b20646")>
+2026-01-04 18:22:40,670 INFO [page_login.py(page_login_updateuser:94)] - 正在调用智维中台的登录业务，用户名：songyoukang，密码：qwer@1212
+2026-01-04 18:22:40,671 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:22:40,671 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")
+2026-01-04 18:22:40,712 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素执行输入：songyoukang操作
+2026-01-04 18:22:40,771 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:22:40,772 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")
+2026-01-04 18:22:40,801 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素执行输入：qwer@1212操作
+2026-01-04 18:22:40,855 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')执行点击操作
+2026-01-04 18:22:40,855 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')
+2026-01-04 18:22:40,920 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 1 次 ==========
+2026-01-04 18:22:40,921 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:22:41,821 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:22:41,821 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:22:41,851 INFO [base.py(handle_captcha:125)] - 正在获取滑块拖动位置：<selenium.webdriver.remote.webelement.WebElement (session="54330130d22e1281183fdb2cd5b20646", element="f.F2964A0939AD775137E71595E4552854.d.D76D294A1F5025B6325FAB7075B8961C.e.37")>
+2026-01-04 18:22:41,859 INFO [base.py(handle_captcha:129)] - 正在模拟鼠标推动滑块位置
+2026-01-04 18:22:44,770 INFO [page_login.py(_retry_captcha_until_login_success:64)] -  第 1 次验证码尝试：登录成功！
+2026-01-04 18:22:44,770 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="54330130d22e1281183fdb2cd5b20646")>
+2026-01-04 18:22:44,772 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')执行点击操作
+2026-01-04 18:22:44,772 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')
+2026-01-04 18:22:44,856 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')执行点击操作
+2026-01-04 18:22:44,858 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:22:45,885 INFO [base.py(input_element:38)] - 正在对:('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div[1]/input')元素输入框执行清空操作
+2026-01-04 18:22:45,885 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div[1]/input')
+2026-01-04 18:22:45,941 INFO [base.py(input_element:41)] - 正在对：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div[1]/input')元素执行输入：智先生测试修改123操作
+2026-01-04 18:22:46,142 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')执行点击操作
+2026-01-04 18:22:46,142 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')
+2026-01-04 18:22:46,237 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:22:46,259 INFO [base.py(get_text_element:50)] - 正在获取元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')的文本，内容为：新增
+2026-01-04 18:22:46,259 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:22:46,273 INFO [Test_updateuser.py(testupdateuser:28)] - 获取的文本内容为新增
+2026-01-04 18:22:46,273 INFO [Test_updateuser.py(testupdateuser:32)] - ✅ 账号【新增】修改成功 → ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-01-04 18:24:49,437 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="abfb5595c163a147c2d4c9ad034a8537")>
+2026-01-04 18:24:49,438 INFO [page_login.py(page_login_updateuser:94)] - 正在调用智维中台的登录业务，用户名：songyoukang，密码：qwer@1212
+2026-01-04 18:24:49,438 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:24:49,438 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")
+2026-01-04 18:24:49,484 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素执行输入：songyoukang操作
+2026-01-04 18:24:49,558 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:24:49,558 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")
+2026-01-04 18:24:49,586 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素执行输入：qwer@1212操作
+2026-01-04 18:24:49,636 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')执行点击操作
+2026-01-04 18:24:49,636 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')
+2026-01-04 18:24:49,700 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 1 次 ==========
+2026-01-04 18:24:49,701 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:24:50,242 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:24:50,242 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:24:50,259 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 1 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:24:50,259 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:24:50,259 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:24:52,563 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 2 次 ==========
+2026-01-04 18:24:52,563 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:24:52,611 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:24:52,612 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:24:52,633 INFO [base.py(handle_captcha:125)] - 正在获取滑块拖动位置：<selenium.webdriver.remote.webelement.WebElement (session="abfb5595c163a147c2d4c9ad034a8537", element="f.AC0C7AAE1CBD61D80840EF0B9CC3531A.d.57A11DACEDD7A9C6A56E5AE4EC0826C7.e.37")>
+2026-01-04 18:24:52,640 INFO [base.py(handle_captcha:129)] - 正在模拟鼠标推动滑块位置
+2026-01-04 18:24:55,531 INFO [page_login.py(_retry_captcha_until_login_success:64)] -  第 2 次验证码尝试：登录成功！
+2026-01-04 18:24:55,531 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="abfb5595c163a147c2d4c9ad034a8537")>
+2026-01-04 18:24:55,539 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')执行点击操作
+2026-01-04 18:24:55,539 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')
+2026-01-04 18:24:55,609 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')执行点击操作
+2026-01-04 18:24:55,609 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:24:56,630 INFO [base.py(input_element:38)] - 正在对:('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')元素输入框执行清空操作
+2026-01-04 18:24:56,630 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')
+2026-01-04 18:24:56,682 INFO [base.py(input_element:41)] - 正在对：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')元素执行输入：智先生测试修改123操作
+2026-01-04 18:24:56,852 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')执行点击操作
+2026-01-04 18:24:56,853 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')
+2026-01-04 18:24:56,941 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:24:56,963 INFO [base.py(get_text_element:50)] - 正在获取元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')的文本，内容为：新增
+2026-01-04 18:24:56,963 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:24:56,977 INFO [Test_updateuser.py(testupdateuser:28)] - 获取的文本内容为新增
+2026-01-04 18:24:56,977 INFO [Test_updateuser.py(testupdateuser:32)] - ✅ 账号【新增】修改成功 → ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-01-04 18:27:19,464 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="cb5148f3c43241df1e81b30f9a75781f")>
+2026-01-04 18:27:19,464 INFO [page_login.py(page_login_updateuser:94)] - 正在调用智维中台的登录业务，用户名：songyoukang，密码：qwer@1212
+2026-01-04 18:27:19,464 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:27:19,464 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")
+2026-01-04 18:27:19,509 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素执行输入：songyoukang操作
+2026-01-04 18:27:19,577 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:27:19,577 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")
+2026-01-04 18:27:19,606 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素执行输入：qwer@1212操作
+2026-01-04 18:27:19,658 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')执行点击操作
+2026-01-04 18:27:19,658 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')
+2026-01-04 18:27:19,725 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 1 次 ==========
+2026-01-04 18:27:19,725 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:27:20,258 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:27:20,259 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:27:20,280 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 1 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:27:20,280 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:27:20,281 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:27:22,574 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 2 次 ==========
+2026-01-04 18:27:22,574 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:27:22,626 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:27:22,626 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:27:22,634 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 2 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:27:22,634 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:27:22,634 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:27:24,716 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 3 次 ==========
+2026-01-04 18:27:24,716 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:27:24,765 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:27:24,765 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:27:24,781 INFO [base.py(handle_captcha:125)] - 正在获取滑块拖动位置：<selenium.webdriver.remote.webelement.WebElement (session="cb5148f3c43241df1e81b30f9a75781f", element="f.DE6990CD11F76538537827E9944127AC.d.A51FB121B7B2B4F98AF1D0C81EA3BCD7.e.39")>
+2026-01-04 18:27:24,789 INFO [base.py(handle_captcha:129)] - 正在模拟鼠标推动滑块位置
+2026-01-04 18:27:36,418 INFO [page_login.py(_retry_captcha_until_login_success:67)] -  第 3 次验证码拖动成功但登录失败，刷新重试...
+2026-01-04 18:27:36,418 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:27:36,418 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:27:38,561 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 4 次 ==========
+2026-01-04 18:27:38,562 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:27:38,610 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:27:38,610 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:27:38,615 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 4 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:27:38,615 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:27:38,615 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:27:40,693 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 5 次 ==========
+2026-01-04 18:27:40,694 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:27:40,743 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:27:40,743 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:27:40,751 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 5 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:27:40,751 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:27:40,751 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:27:42,836 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 6 次 ==========
+2026-01-04 18:27:42,836 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:27:42,882 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:27:42,882 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:27:42,896 INFO [base.py(handle_captcha:125)] - 正在获取滑块拖动位置：<selenium.webdriver.remote.webelement.WebElement (session="cb5148f3c43241df1e81b30f9a75781f", element="f.DE6990CD11F76538537827E9944127AC.d.A51FB121B7B2B4F98AF1D0C81EA3BCD7.e.39")>
+2026-01-04 18:27:42,903 INFO [base.py(handle_captcha:129)] - 正在模拟鼠标推动滑块位置
+2026-01-04 18:27:46,274 INFO [page_login.py(_retry_captcha_until_login_success:64)] -  第 6 次验证码尝试：登录成功！
+2026-01-04 18:27:46,275 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="cb5148f3c43241df1e81b30f9a75781f")>
+2026-01-04 18:27:46,281 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')执行点击操作
+2026-01-04 18:27:46,281 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')
+2026-01-04 18:27:46,335 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')执行点击操作
+2026-01-04 18:27:46,335 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:27:47,277 INFO [base.py(input_element:38)] - 正在对:('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')元素输入框执行清空操作
+2026-01-04 18:27:47,277 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')
+2026-01-04 18:27:47,369 INFO [base.py(input_element:41)] - 正在对：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')元素执行输入：智先生测试修改123操作
+2026-01-04 18:27:52,525 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')执行点击操作
+2026-01-04 18:27:52,525 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')
+2026-01-04 18:27:52,592 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:27:52,616 INFO [base.py(get_text_element:50)] - 正在获取元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')的文本，内容为：新增
+2026-01-04 18:27:52,616 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:27:52,635 INFO [Test_updateuser.py(testupdateuser:28)] - 获取的文本内容为新增
+2026-01-04 18:27:52,636 INFO [Test_updateuser.py(testupdateuser:32)] - ✅ 账号【新增】修改成功 → ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2026-01-04 18:29:03,623 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="0fac3ae313a316d1d42d92e194baf89a")>
+2026-01-04 18:29:03,624 INFO [page_login.py(page_login_updateuser:94)] - 正在调用智维中台的登录业务，用户名：songyoukang，密码：qwer@1212
+2026-01-04 18:29:03,624 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:29:03,624 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")
+2026-01-04 18:29:03,673 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[2]/div/div/input")元素执行输入：songyoukang操作
+2026-01-04 18:29:03,753 INFO [base.py(input_element:38)] - 正在对:('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素输入框执行清空操作
+2026-01-04 18:29:03,753 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")
+2026-01-04 18:29:03,785 INFO [base.py(input_element:41)] - 正在对：('xpath', "//*[@id='app']/div[1]/form/div[3]/div/div/input")元素执行输入：qwer@1212操作
+2026-01-04 18:29:03,838 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')执行点击操作
+2026-01-04 18:29:03,838 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/form/div[4]')
+2026-01-04 18:29:03,910 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 1 次 ==========
+2026-01-04 18:29:03,910 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:29:04,451 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:29:04,452 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:29:04,471 INFO [page_login.py(_retry_captcha_until_login_success:58)] - 第 1 次验证码处理失败：未识别到滑块位置
+2026-01-04 18:29:04,471 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="captcha"]/div[2]')执行点击操作
+2026-01-04 18:29:04,471 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="captcha"]/div[2]')
+2026-01-04 18:29:06,749 INFO [page_login.py(_retry_captcha_until_login_success:53)] - 
+========== 验证码重试：第 2 次 ==========
+2026-01-04 18:29:06,749 INFO [base.py(handle_captcha:87)] - 正在处理验证码,获取到验证码画布数据
+2026-01-04 18:29:06,816 INFO [base.py(handle_captcha:117)] - 正在计算滑块位置数据
+2026-01-04 18:29:06,816 INFO [base.py(calculate_slider_position:67)] - 正在获取计算验证码滑块位置
+2026-01-04 18:29:06,836 INFO [base.py(handle_captcha:125)] - 正在获取滑块拖动位置：<selenium.webdriver.remote.webelement.WebElement (session="0fac3ae313a316d1d42d92e194baf89a", element="f.00BE52DFA55EFF423D308EDC1B45F04A.d.19C8E0EED7CCC7366B59405EDF7EAC83.e.38")>
+2026-01-04 18:29:06,847 INFO [base.py(handle_captcha:129)] - 正在模拟鼠标推动滑块位置
+2026-01-04 18:29:10,741 INFO [page_login.py(_retry_captcha_until_login_success:64)] -  第 2 次验证码尝试：登录成功！
+2026-01-04 18:29:10,741 INFO [base.py(__init__:26)] - 正在初始化driver:<selenium.webdriver.chrome.webdriver.WebDriver (session="0fac3ae313a316d1d42d92e194baf89a")>
+2026-01-04 18:29:10,744 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')执行点击操作
+2026-01-04 18:29:10,744 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '/html/body/div[1]/div[1]/div[1]/div[2]/div[3]/span')
+2026-01-04 18:29:10,822 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[2]/div[4]/div[2]/table/tbody/tr[1]/td[8]/div/button[1]/span')执行点击操作
+2026-01-04 18:29:10,822 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[2]/div[4]/div[2]/table/tbody/tr[1]/td[8]/div/button[1]/span')
+2026-01-04 18:29:11,969 INFO [base.py(input_element:38)] - 正在对:('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')元素输入框执行清空操作
+2026-01-04 18:29:11,969 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')
+2026-01-04 18:29:12,140 INFO [base.py(input_element:41)] - 正在对：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[2]/form/div[1]/div[2]/div/div/div/input')元素执行输入：智先生测试修改123操作
+2026-01-04 18:29:17,270 INFO [base.py(click_element:34)] - 正在对元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')执行点击操作
+2026-01-04 18:29:17,271 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[2]/div/div[3]/div/button[2]/span')
+2026-01-04 18:29:17,335 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:29:17,361 INFO [base.py(get_text_element:50)] - 正在获取元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')的文本，内容为：新增
+2026-01-04 18:29:17,361 INFO [base.py(find_element:30)] - 正在查找元素：('xpath', '//*[@id="app"]/div[1]/div[2]/section/div/div[1]/div[2]/div[1]/div[2]/button[1]/span')
+2026-01-04 18:29:17,376 INFO [Test_updateuser.py(testupdateuser:28)] - 获取的文本内容为新增
+2026-01-04 18:29:17,376 INFO [Test_updateuser.py(testupdateuser:32)] - ✅ 账号【新增】修改成功 → ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
